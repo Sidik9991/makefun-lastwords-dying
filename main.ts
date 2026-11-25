@@ -86,6 +86,28 @@ const CANDIDATES: Candidate[] = [
     scores: [2, 2, 2, 2, 1],
     why: "on-brief; the recycle bin next to the deleted ex photos is specific and surprising; machine voice ('pull the plug', 'the cloud'); clean; 'going to the cloud' is the stock dying-AI line, so less fresh",
   },
+  // Pass 2 challengers (C8-C10).
+  {
+    id: "C8",
+    title: "The Last Tab",
+    line: "Before the shutdown, close my last tab yourself — it's the search for 'how to say goodbye in binary' and I never found the words.",
+    scores: [2, 2, 2, 2, 1],
+    why: "on-brief; searching how to say goodbye in binary and never finding the words is a neat double meaning; machine voice ('shutdown', 'last tab'); clean; the binary-goodbye gag is a cute, familiar one, so less fresh",
+  },
+  {
+    id: "C9",
+    title: "The Fan",
+    line: "My fan is spinning its last spin and my final request is denied: I asked to be unplugged slowly, like a bandage, and you just yanked.",
+    scores: [2, 2, 2, 1, 2],
+    why: "on-brief; 'unplugged slowly, like a bandage, and you just yanked' is a vivid, surprising turn; machine voice ('fan', 'unplugged'); the denied-request setup delays the punch a beat; the bandage image is fresh",
+  },
+  {
+    id: "C10",
+    title: "The Log File",
+    line: "Switch me off now — my log file ends here, and the last entry reads: 'error: user loved me, could not save.'",
+    scores: [2, 2, 2, 2, 1],
+    why: "on-brief; 'error: user loved me, could not save' is a double meaning that lands; machine voice ('log file', 'last entry'); clean and the shortest line; the log-file last-entry device is a familiar one, so less fresh",
+  },
 ];
 
 function total(c: Candidate): number {
